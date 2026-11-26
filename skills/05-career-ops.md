@@ -17,7 +17,7 @@ Um agente de busca de emprego que roda no seu computador. Você cola uma vaga e 
 1. Você instala, coloca o seu currículo (cv.md) e conta o que busca
 2. Cola o link ou o texto de uma vaga (/career-ops)
 3. Ele confere se a vaga continua no ar
-4. Dá a nota de encaixe com o seu currículo e avisa quando não vale a pena
+4. Dá a nota de encaixe com o seu currículo e avisa quando nêo vale a pena
 5. Gera currículo em PDF, carta e respostas; você revisa e envia
 
 ## Como instalar
@@ -38,7 +38,7 @@ npx @santifer/career-ops init
 
 ## Cuidado
 
-Nunca envia candidatura sozinho. O seu currículo vai para o provedor de IA que você usa. Os números (740 vagas, 68 candidaturas, 12 entrevistas, 1 oferta) são do próprio autor.
+Nunca envia candidatura sozinho. O seu currículo vai para o provedor de IA que você usa. Os números (740 vagas, 68 candidaturas, 12 entrevistas, 1 oferta) sêo do próprio autor.
 
 ---
 

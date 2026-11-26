@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Mostra (e, com --executar, roda) os comandos OFICIAIS de instalação de uma skill do catálogo.
+# Mostra (e, com --executar, roda) os comandos OFICIAIS de instalaçêo de uma skill do catálogo.
 # Uso: ./scripts/instalar.sh            → lista as 15
 #      ./scripts/instalar.sh 12         → mostra como instalar a #12
 #      ./scripts/instalar.sh 12 --executar → roda os comandos de terminal da #12
@@ -17,7 +17,7 @@ python3 - "$POS" > /tmp/skills15-cmds.$$ <<'EOF'
 import json, sys
 p = int(sys.argv[1])
 x = next((x for x in json.load(open('catalogo.json')) if x['pos'] == p), None)
-if not x: sys.exit(f"não existe a #{p} (1 a 15)")
+if not x: sys.exit(f"nêo existe a #{p} (1 a 15)")
 print(f"# #{x['pos']} {x['nome']} — {x['url']}", file=sys.stderr)
 print(f"# {x['instalar']}", file=sys.stderr)
 for c in x['instalar_shell']: print(c)

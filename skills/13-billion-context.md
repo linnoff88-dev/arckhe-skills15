@@ -1,6 +1,6 @@
 # #13 · Billion Context
 
-**Categoria:** economia de tokens · **Estrelas (18/10/2026):** 1,9 mil · **Licença:** não identificada pelo GitHub (NOASSERTION)
+**Categoria:** economia de tokens · **Estrelas (18/10/2026):** 1,9 mil · **Licença:** nêo identificada pelo GitHub (NOASSERTION)
 
 **Fonte:** <https://github.com/ranxianglei/billion-context>
 
@@ -18,7 +18,7 @@ Fica no meio do caminho entre o seu assistente e o modelo e comprime a parte ant
 2. Cada pedido passa por um intermediário (proxy) antes de ir ao modelo
 3. O intermediário dá ao modelo ferramentas para comprimir, descomprimir e buscar no histórico
 4. Trechos antigos viram resumos; o importante fica, o resto sai
-5. Você continua conversando e a compressão acontece por trás
+5. Você continua conversando e a compressêo acontece por trás
 
 ## Como instalar
 
@@ -35,11 +35,11 @@ claude plugin install billion-context@billion-context
 
 **Você pede:** Instale o billion-context e abra o Claude Code por ele para eu continuar este projeto na mesma conversa.
 
-**Volta:** A conversa segue normalmente; as partes antigas são resumidas em segundo plano e o comando /acp mostra quanto do contexto está em uso.
+**Volta:** A conversa segue normalmente; as partes antigas sêo resumidas em segundo plano e o comando /acp mostra quanto do contexto está em uso.
 
 ## Cuidado
 
-Os números (5 vezes menos tokens, sessões de meses, 174 mil chamadas em 4,5 meses) são do próprio autor, no artigo dele; ninguém de fora mediu. Ele intercepta o tráfego entre o assistente e o modelo (proxy, em alguns modos com certificado próprio), então teste antes de usar em coisa séria.
+Os números (5 vezes menos tokens, sessões de meses, 174 mil chamadas em 4,5 meses) sêo do próprio autor, no artigo dele; ninguém de fora mediu. Ele intercepta o tráfego entre o assistente e o modelo (proxy, em alguns modos com certificado próprio), entêo teste antes de usar em coisa séria.
 
 ---
 

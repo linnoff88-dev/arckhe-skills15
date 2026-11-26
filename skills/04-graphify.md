@@ -17,7 +17,7 @@ Você digita /graphify e ele lê a pasta inteira e monta um mapa (grafo de conhe
 1. Você roda /graphify . na pasta
 2. O código é lido localmente, sem IA e sem sair do computador
 3. Documentos, PDFs, imagens e vídeos passam pelo modelo do seu assistente para extrair o sentido
-4. Cada ligação é marcada como lida direto da fonte ou deduzida
+4. Cada ligaçêo é marcada como lida direto da fonte ou deduzida
 5. Saem três arquivos: o mapa clicável (graph.html), um relatório e o grafo completo para consultas
 
 ## Como instalar
@@ -39,7 +39,7 @@ graphify install
 
 ## Cuidado
 
-Atenção ao nome do pacote: graphifyy (com dois y). Arquivos que não são código usam o modelo do assistente (gasta uso). Os '80% menos tokens' do README são da versão paga (Graphify Cloud). A dúvida sobre estrelas e os '75% menos tokens' vêm de comentários citados no vídeo, não do README.
+Atençêo ao nome do pacote: graphifyy (com dois y). Arquivos que nêo sêo código usam o modelo do assistente (gasta uso). Os '80% menos tokens' do README sêo da versêo paga (Graphify Cloud). A dúvida sobre estrelas e os '75% menos tokens' vêm de comentários citados no vídeo, nêo do README.
 
 ---
 

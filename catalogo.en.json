@@ -52,7 +52,7 @@
   "exemplo_resultado": "You get a short numbered list of what to do, in order, with one next step at the end and no long explanation up front.",
   "cuidado": "The name is just a nickname: this is not a health tool and does not require a diagnosis. Keeping it on all the time is optional (file ~/.claude/.i-have-adhd-always).",
   "frase_video": "It is like a friend who answers your question instead of telling you their life story first.",
-  "fonte_readme": "INSTALL.md (seção Claude Code: claude plugin marketplace add ayghri/i-have-adhd + claude plugin install i-have-adhd@i-have-adhd); README seção 'The rules'",
+  "fonte_readme": "INSTALL.md (seçêo Claude Code: claude plugin marketplace add ayghri/i-have-adhd + claude plugin install i-have-adhd@i-have-adhd); README seçêo 'The rules'",
   "instalar_shell": [
    "claude plugin marketplace add ayghri/i-have-adhd",
    "claude plugin install i-have-adhd@i-have-adhd"
@@ -81,7 +81,7 @@
   "exemplo_resultado": "The conversation continues as usual; older parts are summarized in the background, and the /acp command shows how much context is in use.",
   "cuidado": "The figures (5 times fewer tokens, sessions lasting months, 174,000 calls in 4.5 months) come from the author’s own article; no one outside has measured them. It intercepts traffic between the assistant and the model (a proxy, sometimes with its own certificate), so test it before using it for important work.",
   "frase_video": "It squeezes the old part of the conversation into short summaries, like packing only what you need, but the savings claim is based on the author’s own test.",
-  "fonte_readme": "README, seção 'Install' (npm install -g billion-context --prefix=~/.local) e nota '- claude:' em Option 1 (/plugin marketplace add ranxianglei/billion-context, /plugin install billion-context@billion-context, /billion-context:bili-setup); seção 'Paper / Preprint'",
+  "fonte_readme": "README, seçêo 'Install' (npm install -g billion-context --prefix=~/.local) e nota '- claude:' em Option 1 (/plugin marketplace add ranxianglei/billion-context, /plugin install billion-context@billion-context, /billion-context:bili-setup); seçêo 'Paper / Preprint'",
   "instalar_shell": [
    "claude plugin marketplace add ranxianglei/billion-context",
    "claude plugin install billion-context@billion-context"
@@ -138,7 +138,7 @@
   "exemplo_resultado": "Something like “Our café is on the main square, in a building that has been a bakery since 1911,” along with a list of what was changed.",
   "cuidado": "There is no code or repository to check; the post’s content was not verified here. The claim of reducing AI detection by 70 to 95% comes from the post’s author. The Humanizer README, which uses the same source, says the opposite: evading detectors is not the goal, and detectors still flag most of its text.",
   "frase_video": "It does not guess what counts as AI writing: it uses Wikipedia’s own list and shows what changed so you can undo it.",
-  "fonte_readme": "Sem README (post do Reddit). Alternativa: README do blader/humanizer, seção 'Installation > Claude Code' (/plugin marketplace add blader/humanizer, /plugin install humanizer@humanizer) e frase 'Getting past AI detectors is not a goal'",
+  "fonte_readme": "Sem README (post do Reddit). Alternativa: README do blader/humanizer, seçêo 'Installation > Claude Code' (/plugin marketplace add blader/humanizer, /plugin install humanizer@humanizer) e frase 'Getting past AI detectors is not a goal'",
   "instalar_shell": [
    "claude plugin marketplace add blader/humanizer",
    "claude plugin install humanizer@humanizer"
@@ -195,7 +195,7 @@
   "exemplo_resultado": "Every Monday at 8 a.m., a message with a news summary arrives on your WhatsApp/Telegram.",
   "cuidado": "This is a bigger project than a skill: it requires Docker and your Anthropic credentials. Setup sends anonymous diagnostics (turn them off with NANOCLAW_NO_DIAGNOSTICS=1). The story about the Docker deal, Hacker News, and Karpathy’s post is not in the README.",
   "frase_video": "An assistant that lives in your WhatsApp, small enough to understand, with each agent locked in its own container.",
-  "fonte_readme": "README, seção 'Quick Start' (git clone ... nanoclaw-v2 / bash nanoclaw.sh) e 'Usage' (@Andy ...); 'Why I Built NanoClaw' (meio milhão de linhas do OpenClaw)",
+  "fonte_readme": "README, seçêo 'Quick Start' (git clone ... nanoclaw-v2 / bash nanoclaw.sh) e 'Usage' (@Andy ...); 'Why I Built NanoClaw' (meio milhêo de linhas do OpenClaw)",
   "instalar_shell": []
  },
  {
@@ -220,7 +220,7 @@
   "exemplo_resultado": "Claude changes only that line and leaves the rest alone; if it is unsure, it asks first.",
   "cuidado": "Karpathy did not write it: it is a file “inspired” by one of his posts, made by another author (forrestchang, now in the multica-ai organization). The README warns that it makes Claude more cautious and a little slower on trivial tasks.",
   "frase_video": "It has more than 220,000 stars, and it is not even a skill: it is a text file with four rules.",
-  "fonte_readme": "README, seção 'Install' (Option A: /plugin marketplace add forrestchang/andrej-karpathy-skills + /plugin install andrej-karpathy-skills@karpathy-skills; Option B: curl do CLAUDE.md)",
+  "fonte_readme": "README, seçêo 'Install' (Option A: /plugin marketplace add forrestchang/andrej-karpathy-skills + /plugin install andrej-karpathy-skills@karpathy-skills; Option B: curl do CLAUDE.md)",
   "instalar_shell": [
    "claude plugin marketplace add forrestchang/andrej-karpathy-skills",
    "claude plugin install andrej-karpathy-skills@karpathy-skills"
@@ -249,7 +249,7 @@
   "exemplo_resultado": "A ready-to-use MP4 file with the animated title, background, and soundtrack.",
   "cuidado": "Requires Node.js 22+ and FFmpeg. HeyGen also sells paid services; HyperFrames itself is open source and runs locally.",
   "frase_video": "Describe the video in words and Claude delivers a real video file, like a motion designer working from one sentence.",
-  "fonte_readme": "README, seção 'Quick Start > With an AI coding agent' (claude plugin marketplace add heygen-com/hyperframes + claude plugin install hyperframes@hyperframes) e 'Requirements: Node.js 22+, FFmpeg'",
+  "fonte_readme": "README, seçêo 'Quick Start > With an AI coding agent' (claude plugin marketplace add heygen-com/hyperframes + claude plugin install hyperframes@hyperframes) e 'Requirements: Node.js 22+, FFmpeg'",
   "instalar_shell": [
    "claude plugin marketplace add heygen-com/hyperframes",
    "claude plugin install hyperframes@hyperframes"
@@ -282,7 +282,7 @@
   "exemplo_resultado": "Instead of jumping into coding, Claude asks a series of questions (who is signing up, what details to ask for, what happens next) until the plan is settled.",
   "cuidado": "Made for people who code: setup asks which task and label system you use. Do not install through both the plugin and skills.sh, or each skill will appear twice.",
   "frase_video": "The problem is not that Claude codes slowly; it is that it starts building before it knows what you want. These skills slow it down where it matters.",
-  "fonte_readme": "README, seção 'Installation (30-second setup) > Claude Code' (claude plugin install mattpocock-skills@claude-plugins-official) e '2. Run /setup-matt-pocock-skills'; seções '#1' a '#4' dos problemas",
+  "fonte_readme": "README, seçêo 'Installation (30-second setup) > Claude Code' (claude plugin install mattpocock-skills@claude-plugins-official) e '2. Run /setup-matt-pocock-skills'; seções '#1' a '#4' dos problemas",
   "instalar_shell": [
    "claude plugin install mattpocock-skills@claude-plugins-official"
   ],
@@ -424,7 +424,7 @@
   "exemplo_resultado": "An explanation of how search works inside the app, with snippets and references that support each point, plus a similar version implemented and tested in your project.",
   "cuidado": "Only use it with software you own or have permission to examine (for research, teaching, or compatibility); the README asks you to use it legally. Analyzing native programs may require tools such as Hopper, Ghidra, or IDA, and commercial ones require a license. Download only from official sources (morluto/rea, rea.tools, npm package rea-agents).",
   "frase_video": "It is an X-ray for apps: the problem was never building the feature; it was being unable to see the code inside.",
-  "fonte_readme": "README, seção 'Quick start > Set up your agent' (npx rea-agents setup) e 'Ask your agent'; 'Showcases > Notion: trace the Electron clipboard bridge'; 'Disclaimer'",
+  "fonte_readme": "README, seçêo 'Quick start > Set up your agent' (npx rea-agents setup) e 'Ask your agent'; 'Showcases > Notion: trace the Electron clipboard bridge'; 'Disclaimer'",
   "instalar_shell": [
    "npx rea-agents setup"
   ],

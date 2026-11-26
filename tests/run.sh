@@ -20,7 +20,7 @@ for x in json.load(open(\"catalogo.json\")):
 t "README PT/EN/ES existem e linkam entre si" "grep -q README.en.md README.md && grep -q README.es.md README.md && [ -f README.en.md ] && [ -f README.es.md ]"
 t "tabela do README tem 15 linhas" "[ \$(sed -n '/<!-- tabela -->/,/<!-- \/tabela -->/p' README.md | grep -c '^| [0-9]') -eq 15 ]"
 t "instalador lista as 15" "[ \$(./scripts/instalar.sh | grep -c '^ *[0-9]') -eq 15 ]"
-t "instalador não executa sem --executar" "./scripts/instalar.sh 12 | grep -q 'nada foi executado'"
+t "instalador nêo executa sem --executar" "./scripts/instalar.sh 12 | grep -q 'nada foi executado'"
 t "instalador recusa número inválido" "! ./scripts/instalar.sh 16"
 t "guia PT/EN/ES existem" "[ -f guia/index.html ] && [ -f guia/en/index.html ] && [ -f guia/es/index.html ]"
 t "guia cita as 15 skills" "python3 -c '

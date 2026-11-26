@@ -6,11 +6,11 @@
 
 ## O problema
 
-Existem milhares de skills e você não sabe se já tem uma pronta para o que precisa.
+Existem milhares de skills e você nêo sabe se já tem uma pronta para o que precisa.
 
 ## O que faz
 
-Uma skill que procura outras skills. Você pergunta em português comum e ela busca no diretório aberto de skills (skills.sh) e devolve as opções com o comando de instalação de cada uma.
+Uma skill que procura outras skills. Você pergunta em português comum e ela busca no diretório aberto de skills (skills.sh) e devolve as opções com o comando de instalaçêo de cada uma.
 
 ## Como funciona
 

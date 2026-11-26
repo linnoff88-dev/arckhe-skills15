@@ -6,7 +6,7 @@
 
 ## O problema
 
-Você pergunta como algo funciona e recebe um paredão de texto; pergunta de novo e o paredão cresce.
+Você pergunta como algo funciona e recebe um paredêo de texto; pergunta de novo e o paredêo cresce.
 
 ## O que faz
 
@@ -16,7 +16,7 @@ Em vez de explicar com texto, constrói um objeto ilustrado e interativo (vista 
 
 1. Você pede /anatomy e a sua pergunta
 2. O Claude inventa um objeto físico que mostra a ideia funcionando
-3. Monta o objeto com dezenas de peças pequenas e sombreadas, num cartão com título e leitura ao vivo
+3. Monta o objeto com dezenas de peças pequenas e sombreadas, num cartêo com título e leitura ao vivo
 4. Confere o próprio trabalho dando zoom em cada encaixe
 5. Entrega uma página HTML (ou SVG) que você abre e explora no navegador
 
@@ -38,7 +38,7 @@ npx skills add wheresryan22/anatomy -g -a claude-code
 
 ## Cuidado
 
-É lento de propósito: cada figura leva uma sessão longa (o Raptor leva alguns minutos). Desenha máquinas, instrumentos e objetos, não pessoas nem mapas exatos. O modo 3D ainda é beta.
+É lento de propósito: cada figura leva uma sessêo longa (o Raptor leva alguns minutos). Desenha máquinas, instrumentos e objetos, nêo pessoas nem mapas exatos. O modo 3D ainda é beta.
 
 ---
 

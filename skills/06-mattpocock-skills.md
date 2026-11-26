@@ -10,7 +10,7 @@ O Claude escreve milhares de linhas em minutos e depois você passa dias descobr
 
 ## O que faz
 
-O conjunto de skills que o professor de programação Matt Pocock usa todo dia. Elas atacam quatro problemas: o agente não fez o que você queria, fala demais, o código não funciona e o projeto vira uma bagunça. O /grill-me faz perguntas até o plano ficar claro, o /tdd escreve teste antes do código e o /code-review revisa o próprio trabalho.
+O conjunto de skills que o professor de programaçêo Matt Pocock usa todo dia. Elas atacam quatro problemas: o agente nêo fez o que você queria, fala demais, o código nêo funciona e o projeto vira uma bagunça. O /grill-me faz perguntas até o plano ficar claro, o /tdd escreve teste antes do código e o /code-review revisa o próprio trabalho.
 
 ## Como funciona
 
@@ -18,7 +18,7 @@ O conjunto de skills que o professor de programação Matt Pocock usa todo dia. 
 2. Antes de construir, o /grill-me te entrevista até o plano ficar claro
 3. O /tdd escreve o teste primeiro e depois o código que faz passar
 4. O /code-review revisa a mudança antes de você aceitar
-5. Outras, como /diagnosing-bugs e /improve-codebase-architecture, cuidam de erros e da organização
+5. Outras, como /diagnosing-bugs e /improve-codebase-architecture, cuidam de erros e da organizaçêo
 
 ## Como instalar
 
@@ -32,13 +32,13 @@ claude plugin install mattpocock-skills@claude-plugins-official
 
 ## Exemplo
 
-**Você pede:** /grill-me quero fazer uma página de inscrição para o meu curso.
+**Você pede:** /grill-me quero fazer uma página de inscriçêo para o meu curso.
 
 **Volta:** Em vez de sair programando, o Claude faz uma série de perguntas (quem se inscreve, que dados pedir, o que acontece depois) até o plano ficar fechado.
 
 ## Cuidado
 
-Feito para quem programa: o setup pergunta qual sistema de tarefas e etiquetas você usa. Não instalar pelo plugin e pelo skills.sh ao mesmo tempo, senão cada skill aparece duas vezes.
+Feito para quem programa: o setup pergunta qual sistema de tarefas e etiquetas você usa. Nêo instalar pelo plugin e pelo skills.sh ao mesmo tempo, senêo cada skill aparece duas vezes.
 
 ## No INEMA
 

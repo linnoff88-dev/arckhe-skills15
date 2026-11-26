@@ -6,11 +6,11 @@
 
 ## O problema
 
-Você vê um recurso no aplicativo de outra pessoa e quer no seu, mas não tem o código, então chuta e erra.
+Você vê um recurso no aplicativo de outra pessoa e quer no seu, mas nêo tem o código, entêo chuta e erra.
 
 ## O que faz
 
-Conecta o seu agente a ferramentas que examinam um aplicativo pronto sem precisar do código-fonte. O agente descobre como o recurso funciona, mostra as provas de cada conclusão e constrói uma versão parecida no seu projeto.
+Conecta o seu agente a ferramentas que examinam um aplicativo pronto sem precisar do código-fonte. O agente descobre como o recurso funciona, mostra as provas de cada conclusêo e constrói uma versêo parecida no seu projeto.
 
 ## Como funciona
 
@@ -18,7 +18,7 @@ Conecta o seu agente a ferramentas que examinam um aplicativo pronto sem precisa
 2. Pede para investigar um recurso de um aplicativo
 3. O REA examina o aplicativo (programas nativos, apps JavaScript/Electron, .NET, sites) no seu computador
 4. Devolve o que achou com as provas e o que ficou sem resposta
-5. O agente explica o funcionamento e escreve e testa uma versão no seu projeto
+5. O agente explica o funcionamento e escreve e testa uma versêo no seu projeto
 
 ## Como instalar
 
@@ -34,11 +34,11 @@ npx rea-agents setup
 
 **Você pede:** Entenda como funciona a busca no app de Notas, me mostre as provas e construa algo parecido no meu projeto.
 
-**Volta:** Uma explicação de como a busca funciona por dentro, com os trechos e referências que provam cada ponto, e uma versão parecida implementada e testada no seu projeto.
+**Volta:** Uma explicaçêo de como a busca funciona por dentro, com os trechos e referências que provam cada ponto, e uma versêo parecida implementada e testada no seu projeto.
 
 ## Cuidado
 
-Só para software que é seu ou que você tem autorização para examinar (pesquisa, ensino, compatibilidade); o README pede uso legal. Análise de programas nativos pode precisar de ferramentas como Hopper, Ghidra ou IDA, e as comerciais exigem licença. Baixe só das fontes oficiais (morluto/rea, rea.tools, pacote npm rea-agents).
+Só para software que é seu ou que você tem autorizaçêo para examinar (pesquisa, ensino, compatibilidade); o README pede uso legal. Análise de programas nativos pode precisar de ferramentas como Hopper, Ghidra ou IDA, e as comerciais exigem licença. Baixe só das fontes oficiais (morluto/rea, rea.tools, pacote npm rea-agents).
 
 ## No INEMA
 

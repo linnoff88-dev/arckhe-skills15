@@ -10,7 +10,7 @@ Refazer um site (fontes, cores, layout) pode levar dias de um designer ou desenv
 
 ## O que faz
 
-Um projeto modelo com a skill /clone-website: você passa o endereço e o agente recria o site como um aplicativo Next.js limpo e editável, com as mesmas fontes, cores e estrutura. Parte do site real, não de um print.
+Um projeto modelo com a skill /clone-website: você passa o endereço e o agente recria o site como um aplicativo Next.js limpo e editável, com as mesmas fontes, cores e estrutura. Parte do site real, nêo de um print.
 
 ## Como funciona
 
@@ -33,7 +33,7 @@ Este é um passo manual (dentro do Claude Code ou interativo). `./scripts/instal
 
 ## Cuidado
 
-Clone só site seu ou que você tem permissão. O README proíbe golpe (phishing), se passar por outra marca e copiar design alheio como seu; logos e textos pertencem aos donos.
+Clone só site seu ou que você tem permissêo. O README proíbe golpe (phishing), se passar por outra marca e copiar design alheio como seu; logos e textos pertencem aos donos.
 
 ---
 

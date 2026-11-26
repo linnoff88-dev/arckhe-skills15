@@ -36,11 +36,11 @@ notebooklm skill install
 
 **Você pede:** Crie um caderno com os meus PDFs da pasta Contratos e me dê os três pontos principais.
 
-**Volta:** O Claude cria o caderno no NotebookLM, envia os PDFs e devolve os três pontos principais com a indicação de qual documento sustenta cada um.
+**Volta:** O Claude cria o caderno no NotebookLM, envia os PDFs e devolve os três pontos principais com a indicaçêo de qual documento sustenta cada um.
 
 ## Cuidado
 
-Não é oficial do Google: usa APIs não documentadas que podem mudar e quebrar a qualquer momento, e uso pesado pode ser limitado. Precisa de login com conta Google.
+Nêo é oficial do Google: usa APIs nêo documentadas que podem mudar e quebrar a qualquer momento, e uso pesado pode ser limitado. Precisa de login com conta Google.
 
 ---
 

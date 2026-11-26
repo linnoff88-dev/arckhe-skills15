@@ -14,15 +14,15 @@ Um assistente pessoal que você conversa pelo WhatsApp, Telegram, Slack, Discord
 
 ## Como funciona
 
-1. Você baixa o projeto e roda o script de instalação
+1. Você baixa o projeto e roda o script de instalaçêo
 2. O script instala Node, pnpm e Docker se faltarem e monta o contêiner do agente
 3. Liga o seu primeiro canal (WhatsApp, Telegram, Slack...)
-4. Você manda mensagem com a palavra de chamada (padrão: @Andy)
+4. Você manda mensagem com a palavra de chamada (padrêo: @Andy)
 5. Ele responde, guarda memória e executa tarefas no horário combinado
 
 ## Como instalar
 
-git clone https://github.com/nanocoai/nanoclaw.git nanoclaw-v2 → cd nanoclaw-v2 → bash nanoclaw.sh (rodar no terminal, fora de uma sessão do Claude). Também vale: colar o link no Claude Code e dizer 'instale isso para mim'.
+git clone https://github.com/nanocoai/nanoclaw.git nanoclaw-v2 → cd nanoclaw-v2 → bash nanoclaw.sh (rodar no terminal, fora de uma sessêo do Claude). Também vale: colar o link no Claude Code e dizer 'instale isso para mim'.
 
 Este é um passo manual (dentro do Claude Code ou interativo). `./scripts/instalar.sh 9` mostra o passo.
 
@@ -34,7 +34,7 @@ Este é um passo manual (dentro do Claude Code ou interativo). `./scripts/instal
 
 ## Cuidado
 
-É um projeto maior que uma skill: exige Docker e o cadastro da sua credencial da Anthropic. O setup manda diagnósticos anônimos (desliga com NANOCLAW_NO_DIAGNOSTICS=1). A história do acordo com a Docker, do Hacker News e do post do Karpathy não está no README.
+É um projeto maior que uma skill: exige Docker e o cadastro da sua credencial da Anthropic. O setup manda diagnósticos anônimos (desliga com NANOCLAW_NO_DIAGNOSTICS=1). A história do acordo com a Docker, do Hacker News e do post do Karpathy nêo está no README.
 
 ---
 
