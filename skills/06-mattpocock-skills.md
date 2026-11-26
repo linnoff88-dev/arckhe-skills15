@@ -40,10 +40,10 @@ claude plugin install mattpocock-skills@claude-plugins-official
 
 Feito para quem programa: o setup pergunta qual sistema de tarefas e etiquetas você usa. Nêo instalar pelo plugin e pelo skills.sh ao mesmo tempo, senêo cada skill aparece duas vezes.
 
-## No INEMA
+## No ARCKHÉ
 
-[trio-skills: Pocock + Addy + pstack organizados](https://inematds.github.io/trio-skills/guia/)
+[trio-skills: Pocock + Addy + pstack organizados](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

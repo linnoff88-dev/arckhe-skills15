@@ -1,6 +1,6 @@
 # skills15 — 15 Claude skills worth your time
 
-[![skills15](guia/assets/banner-en.jpg)](https://inematds.github.io/skills15/guia/en/)
+[![skills15](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/en/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,7 +10,7 @@ There are more than a million skills for AI agents, and most of them are useless
 
 ## 📖 User guide
 
-Landing page + guide to all 15, with examples and video: **https://inematds.github.io/skills15/guia/**
+Landing page + guide to all 15, with examples and video: **https://linnoff88-dev.github.io/arckhe-/guia/**
 
 ## The 15 (from #15 to #1)
 
@@ -45,7 +45,7 @@ The universal way: copy the repository link, paste it into Claude Code, and say 
 Or use this repo's installer, which only shows the official commands (and runs them if you ask):
 
 ```bash
-git clone https://github.com/inematds/skills15.git && cd skills15
+git clone https://github.com/linnoff88-dev/skills15.git && cd skills15
 ./scripts/instalar.sh              # lists the 15
 ./scripts/instalar.sh 12           # shows how to install #12 (find-skills)
 ./scripts/instalar.sh 12 --executar  # runs #12's terminal commands
@@ -68,10 +68,10 @@ git clone https://github.com/inematds/skills15.git && cd skills15
 
 This repository **does not copy** the skills' code: each one remains in its original project, under its own license (most are MIT; HyperFrames and Graphify are Apache-2.0; Karpathy's CLAUDE.md and billion-context don't declare a license recognized by GitHub). This catalog's text is MIT.
 
-## At INEMA
+## At ARCKHÉ
 
-- REA ( #1) explained and tested: https://inematds.github.io/rea-engenharia-reversa/guia/
-- Matt Pocock's Skills (#6) organized with Addy and pstack: https://inematds.github.io/trio-skills/guia/
-- HyperFrames (#7) powers INEMA videos: https://inematds.github.io/explicavideos/guia/
+- REA ( #1) explained and tested: https://linnoff88-dev.github.io/arckhe-/guia/
+- Matt Pocock's Skills (#6) organized with Addy and pstack: https://linnoff88-dev.github.io/arckhe-/guia/
+- HyperFrames (#7) powers ARCKHÉ videos: https://linnoff88-dev.github.io/arckhe-/guia/
 
-Free projects and courses: https://inema.club
+Free projects and courses: https://ARCKHÉ AI

@@ -43,4 +43,4 @@ Os números (5 vezes menos tokens, sessões de meses, 174 mil chamadas em 4,5 me
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

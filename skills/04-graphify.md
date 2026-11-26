@@ -43,4 +43,4 @@ Atençêo ao nome do pacote: graphifyy (com dois y). Arquivos que nêo sêo cód
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

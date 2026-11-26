@@ -38,4 +38,4 @@ Este é um passo manual (dentro do Claude Code ou interativo). `./scripts/instal
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

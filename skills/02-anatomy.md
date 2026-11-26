@@ -42,4 +42,4 @@ npx skills add wheresryan22/anatomy -g -a claude-code
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

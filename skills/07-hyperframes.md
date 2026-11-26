@@ -41,10 +41,10 @@ claude plugin install hyperframes@hyperframes
 
 Exige Node.js 22+ e FFmpeg instalados. A HeyGen também vende serviços pagos; o HyperFrames em si é aberto e roda local.
 
-## No INEMA
+## No ARCKHÉ
 
-[explicavideos: o motor de vídeo do INEMA (usa HyperFrames)](https://inematds.github.io/explicavideos/guia/)
+[explicavideos: o motor de vídeo do ARCKHÉ (usa HyperFrames)](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

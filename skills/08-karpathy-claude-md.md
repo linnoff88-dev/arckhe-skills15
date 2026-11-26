@@ -42,4 +42,4 @@ Nêo foi escrito pelo Karpathy: é um arquivo 'inspirado' num post dele, feito p
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

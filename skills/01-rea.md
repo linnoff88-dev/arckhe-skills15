@@ -40,10 +40,10 @@ npx rea-agents setup
 
 Só para software que é seu ou que você tem autorizaçêo para examinar (pesquisa, ensino, compatibilidade); o README pede uso legal. Análise de programas nativos pode precisar de ferramentas como Hopper, Ghidra ou IDA, e as comerciais exigem licença. Baixe só das fontes oficiais (morluto/rea, rea.tools, pacote npm rea-agents).
 
-## No INEMA
+## No ARCKHÉ
 
-[Guia completo do REA no INEMA (testes de verdade, vídeos)](https://inematds.github.io/rea-engenharia-reversa/guia/)
+[Guia completo do REA no ARCKHÉ (testes de verdade, vídeos)](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

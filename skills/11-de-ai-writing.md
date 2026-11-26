@@ -43,4 +43,4 @@ Nêo há código nem repositório para conferir; o conteúdo do post nêo foi ve
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

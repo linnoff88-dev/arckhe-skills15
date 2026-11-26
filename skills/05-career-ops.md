@@ -42,4 +42,4 @@ Nunca envia candidatura sozinho. O seu currículo vai para o provedor de IA que 
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

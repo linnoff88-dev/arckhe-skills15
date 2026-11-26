@@ -37,4 +37,4 @@ Clone só site seu ou que você tem permissêo. O README proíbe golpe (phishing
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

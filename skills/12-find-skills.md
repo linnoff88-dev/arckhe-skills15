@@ -42,4 +42,4 @@ Ela só sugere; quem decide instalar é você. A própria skill manda desconfiar
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

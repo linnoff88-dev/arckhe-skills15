@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Monta guia/index.html (PT), guia/en/ e guia/es/ a partir de catalogo*.json e dos textos abaixo.
-CSS = o do template projetos-landing-guia (amarelo #FACC15 do kit inema-design V1). Uso: python3 scripts/build_guia.py"""
+CSS = o do template projetos-landing-guia (amarelo #FACC15 do kit ARCKHÉ-design V1). Uso: python3 scripts/build_guia.py"""
 import html, json, os, re
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TPL = os.path.expanduser("~/.claude/skills/projetos-landing-guia/assets/template.html")
-REPO = "https://github.com/inematds/skills15"
-BASE = "https://inematds.github.io/skills15/guia/"
+REPO = "https://github.com/linnoff88-dev/skills15"
+BASE = "https://linnoff88-dev.github.io/arckhe-/guia/"
 VIDEOS = json.load(open(os.path.join(RAIZ, "videos.json"))) if os.path.exists(os.path.join(RAIZ, "videos.json")) else {}
 
 css = re.search(r"<style>(.*?)</style>", open(TPL).read(), re.S).group(1)
@@ -66,11 +66,11 @@ T = {
    "flow": ["sua dor de hoje", "a ficha", "instale uma", "teste numa tarefa real", "ficou ou apague"],
    "h_prob": "O problema", "h_faz": "O que faz", "h_como": "Como funciona", "h_inst": "Como instalar", "h_ex": "Exemplo",
    "h_pede": "Você pede", "h_volta": "Volta", "h_cuid": "Cuidado", "h_ref": "Referência",
-   "fonte": "Projeto original", "inema": "No INEMA", "estr": "★ em 18/10/2026", "lic": "licença", "sem_repo": "post do Reddit (sem repositório)",
+   "fonte": "Projeto original", "ARCKHÉ": "No ARCKHÉ", "estr": "★ em 18/10/2026", "lic": "licença", "sem_repo": "post do Reddit (sem repositório)",
    "ins_chip": "Instalar", "ins_h": "Um jeito para todas", "ins_sub": "Funciona com qualquer uma das 15.",
    "steps": [("Copie o link e peça", "Cole o link do repositório no Claude Code e diga: instale isso para mim. Ele lê o README e faz o resto.", None),
              ("Ou use o instalador deste repo", "Ele só mostra os comandos oficiais; roda apenas com --executar.",
-              "git clone https://github.com/inematds/skills15.git && cd skills15\n./scripts/instalar.sh          # lista as 15\n./scripts/instalar.sh 12       # mostra como instalar a #12\n./scripts/instalar.sh 12 --executar"),
+              "git clone https://github.com/linnoff88-dev/skills15.git && cd skills15\n./scripts/instalar.sh          # lista as 15\n./scripts/instalar.sh 12       # mostra como instalar a #12\n./scripts/instalar.sh 12 --executar"),
              ("Teste numa tarefa real", "Faça a mesma tarefa com e sem a skill. Nêo melhorou? Desinstale.", None)],
    "vid_chip": "Vídeos", "vid_h": "As 15 explicadas", "vid_sub": "O vídeo completo detalha cada uma; o curto cita as 15 em menos de um minuto.",
    "g_chip": "Em números", "g_h": "Estrelas no GitHub", "g_sub": "Quantas estrelas cada projeto tinha em 18/10/2026 (a #11 é um post do Reddit e fica de fora). Estrela mede popularidade, nêo qualidade.", "g_tab": "Ver como tabela", "g_c1": "Skill", "g_c2": "Estrelas", "g_nota": "Passe o mouse ou toque numa barra para ver o número exato.",
@@ -94,11 +94,11 @@ T = {
    "flow": ["today's pain", "the entry", "install one", "test on a real task", "keep it or remove it"],
    "h_prob": "The problem", "h_faz": "What it does", "h_como": "How it works", "h_inst": "How to install", "h_ex": "Example",
    "h_pede": "You ask", "h_volta": "You get", "h_cuid": "Caveat", "h_ref": "Reference",
-   "fonte": "Original project", "inema": "At INEMA", "estr": "★ on 10/18/2026", "lic": "license", "sem_repo": "Reddit post (no repository)",
+   "fonte": "Original project", "ARCKHÉ": "At ARCKHÉ", "estr": "★ on 10/18/2026", "lic": "license", "sem_repo": "Reddit post (no repository)",
    "ins_chip": "Install", "ins_h": "One way for all of them", "ins_sub": "Works with any of the 15.",
    "steps": [("Copy the link and ask", "Paste the repository link into Claude Code and say: install this for me. It reads the README and does the rest.", None),
              ("Or use this repo's installer", "It only shows the official commands; it runs them only with --executar.",
-              "git clone https://github.com/inematds/skills15.git && cd skills15\n./scripts/instalar.sh          # lists the 15\n./scripts/instalar.sh 12       # shows how to install #12\n./scripts/instalar.sh 12 --executar"),
+              "git clone https://github.com/linnoff88-dev/skills15.git && cd skills15\n./scripts/instalar.sh          # lists the 15\n./scripts/instalar.sh 12       # shows how to install #12\n./scripts/instalar.sh 12 --executar"),
              ("Test it on a real task", "Do the same task with and without the skill. No better? Uninstall it.", None)],
    "vid_chip": "Videos", "vid_h": "The 15 explained (in Portuguese)", "vid_sub": "The full video details each one; the short one names all 15 in under a minute.",
    "g_chip": "By the numbers", "g_h": "GitHub stars", "g_sub": "How many stars each project had on 10/18/2026 (#11 is a Reddit post and is left out). Stars measure popularity, not quality.", "g_tab": "Show as a table", "g_c1": "Skill", "g_c2": "Stars", "g_nota": "Hover or tap a bar to see the exact number.",
@@ -122,11 +122,11 @@ T = {
    "flow": ["tu dolor de hoy", "la ficha", "instala una", "pruébala en una tarea real", "se queda o la borras"],
    "h_prob": "El problema", "h_faz": "Qué hace", "h_como": "Cómo funciona", "h_inst": "Cómo instalar", "h_ex": "Ejemplo",
    "h_pede": "Tú pides", "h_volta": "Recibes", "h_cuid": "Cuidado", "h_ref": "Referencia",
-   "fonte": "Proyecto original", "inema": "En INEMA", "estr": "★ al 18/10/2026", "lic": "licencia", "sem_repo": "post de Reddit (sin repositorio)",
+   "fonte": "Proyecto original", "ARCKHÉ": "En ARCKHÉ", "estr": "★ al 18/10/2026", "lic": "licencia", "sem_repo": "post de Reddit (sin repositorio)",
    "ins_chip": "Instalar", "ins_h": "Una forma para todas", "ins_sub": "Funciona con cualquiera de las 15.",
    "steps": [("Copia el enlace y pide", "Pega el enlace del repositorio en Claude Code y di: instálame esto. Lee el README y hace el resto.", None),
              ("O usa el instalador de este repo", "Solo muestra los comandos oficiales; los ejecuta únicamente con --executar.",
-              "git clone https://github.com/inematds/skills15.git && cd skills15\n./scripts/instalar.sh          # lista las 15\n./scripts/instalar.sh 12       # muestra cómo instalar la #12\n./scripts/instalar.sh 12 --executar"),
+              "git clone https://github.com/linnoff88-dev/skills15.git && cd skills15\n./scripts/instalar.sh          # lista las 15\n./scripts/instalar.sh 12       # muestra cómo instalar la #12\n./scripts/instalar.sh 12 --executar"),
              ("Pruébala en una tarea real", "Haz la misma tarea con y sin la skill. ¿No mejoró? Desinstálala.", None)],
    "vid_chip": "Videos", "vid_h": "Las 15 explicadas (en portugués)", "vid_sub": "El video completo detalla cada una; el corto nombra las 15 en menos de un minuto.",
    "g_chip": "En números", "g_h": "Estrellas en GitHub", "g_sub": "Cuántas estrellas tenía cada proyecto el 18/10/2026 (la #11 es un post de Reddit y queda fuera). Las estrellas miden popularidad, no calidad.", "g_tab": "Ver como tabla", "g_c1": "Skill", "g_c2": "Estrellas", "g_nota": "Pasa el mouse o toca una barra para ver el número exacto.",
@@ -155,8 +155,8 @@ def ficha(x, t, l):
     pre = f'<pre><span class="k">{sh}</span></pre>' if sh else ""
     cuid = f'<h4>{t["h_cuid"]}</h4><div class="exq warn"><p>{E(x["cuidado"])}</p></div>' if x.get("cuidado") else ""
     refs = f'<a href="{E(x["url"])}" target="_blank" rel="noopener">{t["fonte"]} ↗</a>'
-    if x.get("inema"):
-        refs += f'<a href="{E(x["inema"]["url"])}" target="_blank" rel="noopener">{t["inema"]}: {E(x["inema"]["titulo"])} ↗</a>'
+    if x.get("ARCKHÉ"):
+        refs += f'<a href="{E(x["ARCKHÉ"]["url"])}" target="_blank" rel="noopener">{t["ARCKHÉ"]}: {E(x["ARCKHÉ"]["titulo"])} ↗</a>'
     return f'''<article class="sk" id="s{x["pos"]}">
   <figure><img src="{p}assets/{IMG[x["slug"]]}.jpg" alt="{E(x["nome"])}" loading="lazy"></figure>
   <div>
@@ -232,7 +232,7 @@ def pagina(l):
 <nav><div class="wrap">
   <a class="brand" href="#top"><span class="emoji">🧰</span> skills15</a>
   <span class="sep">|</span>
-  <span class="clubpro"><a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a><span class="sep">-</span><a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a></span>
+  <span class="clubpro"><a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a><span class="sep">-</span><a class="pro" href="https://ARCKHÉ.pro" target="_blank" rel="noopener">PRO</a></span>
   <div class="links">
     <a class="sec" href="#indice">{t["nav"][0]}</a>
     <a class="sec" href="#escolher">{t["nav"][1]}</a>
@@ -262,7 +262,7 @@ def pagina(l):
 {vid}
 <footer><div class="wrap">
   <div class="pill">Claude Code</div><div class="pill">Agent Skills</div><div class="pill">15 skills</div>
-  <p style="margin-top:18px">skills15 · {E(t["foot"])} · <a href="{REPO}">inematds/skills15</a> · <a href="https://inema.club">INEMA.CLUB</a></p>
+  <p style="margin-top:18px">skills15 · {E(t["foot"])} · <a href="{REPO}">linnoff88-dev/skills15</a> · <a href="https://ARCKHÉ AI">ARCKHÉ AI</a></p>
 </div></footer>
 <script>
 (function(){{var KEY='skills15-theme',b=document.body,t=document.getElementById('themeToggle');

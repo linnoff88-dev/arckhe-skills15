@@ -254,9 +254,9 @@
    "claude plugin marketplace add heygen-com/hyperframes",
    "claude plugin install hyperframes@hyperframes"
   ],
-  "inema": {
-   "titulo": "explicavideos: o motor de vídeo do INEMA (usa HyperFrames)",
-   "url": "https://inematds.github.io/explicavideos/guia/"
+  "ARCKHÉ": {
+   "titulo": "explicavideos: o motor de vídeo do ARCKHÉ (usa HyperFrames)",
+   "url": "https://linnoff88-dev.github.io/arckhe-/guia/"
   }
  },
  {
@@ -286,9 +286,9 @@
   "instalar_shell": [
    "claude plugin install mattpocock-skills@claude-plugins-official"
   ],
-  "inema": {
+  "ARCKHÉ": {
    "titulo": "trio-skills: Pocock + Addy + pstack organizados",
-   "url": "https://inematds.github.io/trio-skills/guia/"
+   "url": "https://linnoff88-dev.github.io/arckhe-/guia/"
   }
  },
  {
@@ -428,9 +428,9 @@
   "instalar_shell": [
    "npx rea-agents setup"
   ],
-  "inema": {
-   "titulo": "Guia completo do REA no INEMA (testes de verdade, vídeos)",
-   "url": "https://inematds.github.io/rea-engenharia-reversa/guia/"
+  "ARCKHÉ": {
+   "titulo": "Guia completo do REA no ARCKHÉ (testes de verdade, vídeos)",
+   "url": "https://linnoff88-dev.github.io/arckhe-/guia/"
   }
  }
 ]

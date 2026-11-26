@@ -1,6 +1,6 @@
 # skills15 — las 15 skills para Claude que valen la pena
 
-[![skills15](guia/assets/banner-es.jpg)](https://inematds.github.io/skills15/guia/es/)
+[![skills15](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/es/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,7 +10,7 @@ Hay más de un millón de skills para agentes de IA, y la mayoría no sirve para
 
 ## 📖 Guía de uso
 
-Landing + guía con las 15, ejemplos y vídeo: **https://inematds.github.io/skills15/guia/es/**
+Landing + guía con las 15, ejemplos y vídeo: **https://linnoff88-dev.github.io/arckhe-/guia/es/**
 
 ## Las 15 (de la 15.ª a la 1.ª)
 
@@ -45,7 +45,7 @@ La forma universal: copia el enlace del repositorio, pégalo en Claude Code y di
 O usa el instalador de este repo, que solo muestra los comandos oficiales (y los ejecuta si se lo pides):
 
 ```bash
-git clone https://github.com/inematds/skills15.git && cd skills15
+git clone https://github.com/linnoff88-dev/skills15.git && cd skills15
 ./scripts/instalar.sh              # lista as 15
 ./scripts/instalar.sh 12           # mostra como instalar a #12 (find-skills)
 ./scripts/instalar.sh 12 --executar  # roda os comandos de terminal da #12
@@ -68,10 +68,10 @@ git clone https://github.com/inematds/skills15.git && cd skills15
 
 Este repositorio **no copia** el código de las skills: cada una sigue en el proyecto original, con su licencia (la mayoría MIT; HyperFrames y Graphify son Apache-2.0; CLAUDE.md do Karpathy y billion-context no declaran una licencia reconocida por GitHub). El texto de este catálogo es MIT.
 
-## En INEMA
+## En ARCKHÉ
 
-- REA (la #1), explicado y probado: https://inematds.github.io/rea-engenharia-reversa/guia/
-- Skills do Matt Pocock (la #6), organizadas con Addy y pstack: https://inematds.github.io/trio-skills/guia/
-- HyperFrames (la #7) es el motor de los vídeos de INEMA: https://inematds.github.io/explicavideos/guia/
+- REA (la #1), explicado y probado: https://linnoff88-dev.github.io/arckhe-/guia/
+- Skills do Matt Pocock (la #6), organizadas con Addy y pstack: https://linnoff88-dev.github.io/arckhe-/guia/
+- HyperFrames (la #7) es el motor de los vídeos de ARCKHÉ: https://linnoff88-dev.github.io/arckhe-/guia/
 
-Proyectos y cursos gratuitos: https://inema.club
+Proyectos y cursos gratuitos: https://ARCKHÉ AI

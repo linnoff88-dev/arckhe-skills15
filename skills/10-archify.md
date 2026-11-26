@@ -42,4 +42,4 @@ Pode consultar um endereço fixo uma vez por dia só para avisar de atualizaçê
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI

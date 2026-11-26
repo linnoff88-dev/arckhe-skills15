@@ -43,4 +43,4 @@ O nome é só um apelido: nêo é ferramenta de saúde nem exige diagnóstico. A
 
 ---
 
-Projetos e cursos gratuitos: https://inema.club
+Projetos e cursos gratuitos: https://ARCKHÉ AI
